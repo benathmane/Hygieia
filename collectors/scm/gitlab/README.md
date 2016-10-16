@@ -41,12 +41,13 @@ dbpassword=dbpass
 #Collector schedule (required)
 gitlab.cron=0 0/1 * * * *
 
-#Gitlab server (optional)
+#Gitlab server (required)
 gitlab.server=https://gitlab.company.com/
 
+#Gitlab branche (optional - not implemented for moment)
 gitlab.branche=master
 
-#set apiKey to use HTTPS Auth
+#set apiKey to use HTTPS Auth (required)
 gitlab.apiToken=
 
 gitlab.saveLog=true
